@@ -26,7 +26,7 @@ This script bridges the gap between Microsoft Entra ID group management and Port
 
 1. **Clone or download the script**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/port-experimental/sync-entra.git
    cd port-sync-entra
    ```
 
@@ -467,12 +467,6 @@ Content-Type: application/json
 ### Testing
 
 ```bash
-# Run unit tests
-python -m pytest tests/
-
-# Run with coverage
-python -m pytest --cov=sync_group_to_port tests/
-
 # Run linting
 flake8 sync_group_to_port.py
 ```
